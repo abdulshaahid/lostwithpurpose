@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    }
+
+.head{
+background-image: url("https://www.lostwithpurpose.com/wp-content/uploads/2018/02/DSC_5979.jpg");
+height: 950px;
+}
+
+.head nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+
+.head nav img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.head nav ul{
+    padding-top: 30px;
+    margin-left: 650px;
+    display: flex;
+}
+
+.head nav ul li a{
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.maintext{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 400px;
+}
+
+.about{
+    padding: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+}
+
+.about a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.destinations h3{
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 18px;
+}
+
+.destinations .row{
+   
+    padding: 30px;
+}
+
+
+
+.destinations .row .col-3:hover{
+    cursor: pointer;
+    filter: brightness(110%);
+    transform: scale(1.02);
+    transition: transform 0.5s;
+    
+}
+
+
+.destinations .img1{
+
+    background-image: url("./img/afgan.jpg");
+    width: 350px;
+    height: 440px;
+}
+.destinations .img2{
+
+    background-image: url("./img/pak.jpg");
+    width: 350px;
+    height: 440px;
+}
+.destinations .img3{
+
+    background-image: url("./img/iran.jpg");
+    width: 350px;
+    height: 440px;
+}
+.destinations .img4{
+
+    background-image: url("./img/saudi.jpg");
+    width: 350px;
+    height: 440px;
+}
+
+.destinations .row h1{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    padding-top: 150px;
+    text-align: center;
+
+}
+
+.comp{
+    padding-top: 100px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.comp h3{
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 18px;
+}
+
+.comp img{
+    margin-left: 140px;
+}
+
+
+
+.tour{
+    background-color: rgb(228, 228, 228);
+}
+
+.tour .row{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.tour .img5{
+    background-image: url("./img/tour/1.jpg");
+    width: 450px;
+    height: 440px;
+}
+.tour .img6{
+    background-image: url("./img/tour/2.jpg");
+    width: 450px;
+    height: 440px;
+}
+.tour .img7{
+    background-image: url("./img/tour/3.jpg");
+    width: 450px;
+    height: 440px;
+}
+
+.tour h3{
+    padding-top: 70px;
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 23px;
+}
+
+.tour .txt{
+    padding-bottom: 155px;
+    padding-top: 110px;
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+.tour h2{
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.tour p{
+    color: rgb(192, 192, 192);
+    margin-left: 40px;
+}
+
+.tour .row .col-4:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.fav{
+    padding-top: 70px;
+    background-color: rgb(228, 228, 228);
+}
+
+.fav h3{
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.fav .row{
+    padding-bottom: 30px;
+}
+
+.fav .col-5{
+    background-color: white;
+}
+
+.fav img:hover{
+    filter: brightness(120%);
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.fav .texx{
+padding-top: 50px;
+padding-left: 20px;
+}
+
+.map{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+    
+.map h3{
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.latest{
+    padding-top: 70px;
+    background-color: rgb(228, 228, 228);
+    padding-bottom: 70px;
+}
+
+.latest h3{
+    color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.latest .row{
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.latest .img5{
+    background-image: url("./img/latest/1.jpg");
+    width: 450px;
+    height: 440px;
+}
+.latest .img6{
+    background-image: url("./img/latest/2.jpg");
+    width: 450px;
+    height: 440px;
+}
+.latest .img7{
+    background-image: url("./img/latest/3.jpg");
+    width: 450px;
+    height: 440px;
+}
+
+.latest .txt{
+    padding-bottom: 155px;
+    padding-top: 110px;
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+.latest h2{
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.latest p{
+    color: rgb(192, 192, 192);
+    margin-left: 40px;
+}
+
+.latest .row .col-4:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.latest button{
+    background-color: rgb(34, 34, 175);
+    width: 160px;
+padding: 10px;
+    font-weight: 700;
+    margin-left: 650px;
+    
+}
+
+.footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
+.footer .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+.footer .footer-bottom a {
+    color: #777;
+}
+
+.footer img{
+    padding-top: 30px;
+}
+
+
+.nav2 nav{
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    
+
+}
+
+.nav2 nav img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.nav2 nav ul{
+    padding-top: 30px;
+    margin-left: 650px;
+    display: flex;
+}
+
+.nav2 nav ul li a{
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    text-decoration: none;
+}
